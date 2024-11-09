@@ -11,13 +11,13 @@ body {
 .header {
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     flex-wrap: wrap;
     border-radius: 20px;
     align-items: left;
     font-family: monospace;
-    background-color: #c2734d;
+    background-color: white;
 
 }
 
@@ -43,7 +43,7 @@ body {
         color: black;
         text-align: left;
         padding: 25px;
-        font-size: 18px;
+        font-size: 20px;
         font-family: monospace;
         text-decoration: none;
     }
@@ -62,23 +62,16 @@ main {
     flex-grow: 1;
     flex-direction: column;
     align-items: left;
-    padding: 0px;
-    background-image: url(assets/Yoshiewallpaper.jpg);
-    opacity: .80;
-    height: 750px;
+    padding: 40px;
 
+    main img {
+        width: 100%;
+        display: flex;
 
-}
-
-.yoshieoval {
-    margin: 5pt;
-    width: 1200px;
-    height: 650px;
-    padding: 50px;
-    border-radius: 40px;
-    display: flex;
+    }
 
 }
+
 
 h1 {
     font-size: 2em;
@@ -95,28 +88,26 @@ h2 {
 p {
     font-size: 20pt;
     color: #c2734d;
-}
-
-div.gallery {
-    margin: 5px;
-    float: left;
-    width: 180px;
-
-
+    text-indent: 2px;
 
 }
 
-div.gallery img {
-    width: 300%;
-    height: auto;
-    border-radius: 30cm;
-    text-decoration: none;
 
-}
 
-div.desc {
-    padding: 15px;
-    text-align: left;
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    flex-wrap: wrap;
+    align-items: right;
     font-family: monospace;
-    text-decoration: none;
+    background-color: white;
+
+    footer img {
+        display: flex;
+        float: right;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        height: 200px;
+    }
 }
